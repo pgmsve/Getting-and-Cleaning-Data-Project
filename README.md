@@ -42,9 +42,9 @@ How tidy data set was created:
   git push  to update Github with changed files
   
   
-1. Merges the training and the test sets to create one data set
+# 1. Merges the training and the test sets to create one data set
 
-# read training set of data
+## read training set of data
 train_labels   <- read.table("UCI HAR Dataset/train/y_train.txt", col.names="label")
 train_subjects <- read.table("UCI HAR Dataset/train/subject_train.txt", col.names="subject")
 train_data     <- read.table("UCI HAR Dataset/train/X_train.txt")
