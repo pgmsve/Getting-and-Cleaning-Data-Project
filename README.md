@@ -29,16 +29,24 @@ You should create one R script called run_analysis.R that does the following:
   Appropriately labels the data set with descriptive activity names.
   Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-How tidy data set was created:
+## How tidy data set was created:
 
   create repository on Github https://github.com/pgmsve/Getting-and-Cleaning-Data-Project.git
+  
   clone this repository: get clone https://github.com/pgmsve/Getting-and-Cleaning-Data-Project.git
+  
   download compressed raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  
   unzip raw data and copy the directory UCI HAR Dataset to the cloned repository root directory
+  
   open R console and set the working directory to the repository root (use setwd())
+  
   install and load requared packages
+  
   git add . add all new files to a local repository
+  
   git commit -m "message" where message is a usefule decription of what was done
+  
   git push  to update Github with changed files
   
   
